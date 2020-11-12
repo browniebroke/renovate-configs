@@ -1,2 +1,3 @@
-# renovate-config
-My shareable Renovate config
+# Renovate configs
+
+My shareable Renovate configs
