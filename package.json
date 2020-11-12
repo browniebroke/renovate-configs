@@ -1,0 +1,18 @@
+{
+  "name": "browniebroke-renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable Renovate config to use in most of my projects.",
+  "author": "browniebroke",
+  "license": "MIT",
+  "repository": "browniebroke/renovate-config",
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "labels": ["dependencies"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    }
+  }
+}
