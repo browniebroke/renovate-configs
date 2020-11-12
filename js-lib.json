@@ -1,0 +1,17 @@
+{
+  "extends": ["config:js-lib"],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "schedule": ["on the 1st and 15th day of the month"],
+  "prHourlyLimit": 1,
+  "semanticCommits": true,
+  "packageRules": [
+    {
+      "paths": ["example/**"],
+      "extends": [":semanticCommitTypeAll(chore)"]
+    }
+  ],
+  "supportPolicy": ["current"]
+}
