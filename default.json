@@ -1,8 +1,7 @@
 {
-  "extends": ["config:base"],
-  "labels": ["dependencies"],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  }
+  "extends": [
+    "config:base", 
+    "github>browniebroke/renovate-configs:automerge"
+  ],
+  "labels": ["dependencies"]
 }

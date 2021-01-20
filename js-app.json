@@ -1,10 +1,8 @@
 {
-  "extends": ["config:js-app"],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
-  "schedule": ["on the 1st and 20th day of the month"],
-  "prHourlyLimit": 1,
+  "extends": [
+    "config:js-app",
+    "github>browniebroke/renovate-configs:automerge",
+    "github>browniebroke/renovate-configs:netlify"
+  ],
   "supportPolicy": ["current"]
 }

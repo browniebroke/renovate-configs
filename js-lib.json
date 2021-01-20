@@ -1,11 +1,9 @@
 {
-  "extends": ["config:js-lib"],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
-  "schedule": ["on the 1st and 15th day of the month"],
-  "prHourlyLimit": 1,
+  "extends": [
+    "config:js-lib",
+    "github>browniebroke/renovate-configs:automerge",
+    "github>browniebroke/renovate-configs:netlify"
+  ],
   "semanticCommits": true,
   "packageRules": [
     {
