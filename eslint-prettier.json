@@ -1,0 +1,16 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "babel-eslint"
+      ],
+      "matchPackagePrefixes": [
+        "@typescript-eslint/",
+        "eslint",
+        "prettier"
+      ],
+      "groupName": "eslint and prettier",
+      "groupSlug": "eslint-prettier"
+    }
+  ]
+}
