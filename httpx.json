@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "httpx",
+        "respx"
+      ],
+      "groupName": "httpx"
+    }
+  ]
+}
