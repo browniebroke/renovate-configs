@@ -5,7 +5,8 @@
         "httpx",
         "respx"
       ],
-      "groupName": "httpx"
+      "groupName": "httpx and respx",
+      "groupSlug": "httpx-respx"
     }
   ]
 }
