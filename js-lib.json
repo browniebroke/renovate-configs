@@ -4,7 +4,8 @@
     "github>browniebroke/renovate-configs:automerge",
     "github>browniebroke/renovate-configs:eslint-prettier",
     "github>browniebroke/renovate-configs:group-patch",
-    "github>browniebroke/renovate-configs:netlify"
+    "github>browniebroke/renovate-configs:netlify",
+    "github>browniebroke/renovate-configs:styled-components"
   ],
   "semanticCommits": true,
   "packageRules": [
