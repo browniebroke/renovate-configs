@@ -1,0 +1,15 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@browniebroke/react-ui-components",
+        "@types/styled-components",
+        "babel-plugin-styled-components",
+        "gatsby-plugin-styled-components",
+        "styled-components"
+      ],
+      "groupName": "styled-components packages",
+      "groupSlug": "styled-components-pkgs"
+    }
+  ]
+}
