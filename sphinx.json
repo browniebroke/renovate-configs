@@ -1,0 +1,14 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "myst-parser",
+        "sphinx",
+        "sphinx-autobuild",
+        "sphinx-rtd-theme"
+      ],
+      "groupName": "Sphinx packages",
+      "groupSlug": "sphinx-pkgs"
+    }
+  ]
+}
