@@ -1,0 +1,11 @@
+{
+    "packageRules": [
+      {
+        "matchPackagePatterns": [
+          "*gatsby*"
+        ],
+        "groupName": "gatsby packages",
+        "groupSlug": "gatsby-packages"
+      }
+    ]
+  }
