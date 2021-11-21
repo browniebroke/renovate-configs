@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@size-limit/preset-small-lib",
+        "size-limit"
+      ],
+      "groupName": "size-limit packages",
+      "groupSlug": "size-limit-pkgs"
+    }
+  ]
+}
