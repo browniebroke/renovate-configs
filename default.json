@@ -3,5 +3,8 @@
     "config:base", 
     "github>browniebroke/renovate-configs:automerge"
   ],
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
+  "pre-commit": {
+    "enabled": true
+  }
 }
