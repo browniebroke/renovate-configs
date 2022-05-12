@@ -1,14 +1,13 @@
 {
   "packageRules": [
     {
+      "matchPackagePatterns": [
+        "^react-",
+        "^@types/react-"
+      ],
       "matchPackageNames": [
         "react",
-        "react-dom",
-        "react-is",
-        "react-test-renderer",
-        "@types/react",
-        "@types/react-dom",
-        "@types/react-test-renderer"
+        "@types/react"
       ],
       "groupName": "react monorepo with types",
       "groupSlug": "react-monorepo-with-types"
