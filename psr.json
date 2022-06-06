@@ -1,0 +1,8 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["relekang/python-semantic-release"],
+      "allowedVersions": "<v7.29"
+    }
+  ]
+}
