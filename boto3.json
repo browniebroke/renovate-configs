@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "boto",
+        "boto3"
+      ],
+      "extends": [":semanticCommitTypeAll(chore)"]
+    }
+  ]
+}
