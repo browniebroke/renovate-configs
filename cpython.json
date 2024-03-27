@@ -3,7 +3,7 @@
     {
       "matchPackageNames": ["python"],
       "rangeStrategy": "widen",
-      "seperateMultipleMinor": true
+      "separateMultipleMinor": true
     }
   ]
 }
