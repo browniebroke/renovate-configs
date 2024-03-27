@@ -2,7 +2,8 @@
   "packageRules": [
     {
       "matchPackageNames": ["python"],
-      "rangeStrategy": "widen"
+      "rangeStrategy": "widen",
+      "separateMultipleMinor": true
     }
   ]
 }
