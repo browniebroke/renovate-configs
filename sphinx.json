@@ -2,6 +2,7 @@
   "packageRules": [
     {
       "matchPackageNames": [
+        "furo",
         "myst-parser",
         "sphinx",
         "sphinx-autobuild",
