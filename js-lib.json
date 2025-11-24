@@ -1,6 +1,7 @@
 {
   "extends": [
     "config:js-lib",
+    "github>browniebroke/renovate-configs:lock-file-maintenance",
     "github>browniebroke/renovate-configs:automerge",
     "github>browniebroke/renovate-configs:eslint-prettier",
     "github>browniebroke/renovate-configs:group-patch",
