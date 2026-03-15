@@ -6,6 +6,7 @@
       ],
       "matchPackagePrefixes": [
         "@typescript-eslint/",
+        "@eslint/js",
         "eslint",
         "prettier"
       ],
