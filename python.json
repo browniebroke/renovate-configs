@@ -1,5 +1,6 @@
 {
   "extends": [
+    "helpers:pinGitHubActionDigests",
     "github>browniebroke/renovate-configs",
     "github>browniebroke/renovate-configs:lock-file-maintenance",
     "github>browniebroke/renovate-configs:cpython",
