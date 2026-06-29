@@ -6,5 +6,11 @@
   "labels": ["dependencies"],
   "pre-commit": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["tiangolo/issue-manager"],
+      "allowedVersions": "!/^v0\\.8\\.0$/"
+    }
+  ]
 }
