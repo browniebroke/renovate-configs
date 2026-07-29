@@ -4,5 +4,8 @@
   "description": "Shareable Renovate configs to use in most of my projects.",
   "author": "browniebroke",
   "license": "MIT",
-  "repository": "browniebroke/renovate-configs"
+  "repository": "browniebroke/renovate-configs",
+  "engines": {
+    "node": "24"
+  }
 }
