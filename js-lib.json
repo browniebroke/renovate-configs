@@ -4,6 +4,7 @@
     "config:js-lib",
     "github>browniebroke/renovate-configs:lock-file-maintenance",
     "github>browniebroke/renovate-configs:automerge",
+    "github>browniebroke/renovate-configs:github-actions",
     "github>browniebroke/renovate-configs:eslint-prettier",
     "github>browniebroke/renovate-configs:group-patch",
     "github>browniebroke/renovate-configs:size-limit",

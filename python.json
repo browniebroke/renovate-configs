@@ -4,6 +4,7 @@
     "github>browniebroke/renovate-configs",
     "github>browniebroke/renovate-configs:lock-file-maintenance",
     "github>browniebroke/renovate-configs:pre-commit",
+    "github>browniebroke/renovate-configs:github-actions",
     "github>browniebroke/renovate-configs:cpython",
     "github>browniebroke/renovate-configs:no-pip-requirements",
     "github>browniebroke/renovate-configs:boto3",
