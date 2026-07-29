@@ -2,7 +2,7 @@
     "packageRules": [
       {
         "matchPackagePatterns": [
-          "*gatsby*"
+          "gatsby"
         ],
         "groupName": "gatsby packages",
         "groupSlug": "gatsby-packages"
