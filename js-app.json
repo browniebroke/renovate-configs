@@ -10,6 +10,5 @@
     "github>browniebroke/renovate-configs:size-limit",
     "github>browniebroke/renovate-configs:react",
     "github>browniebroke/renovate-configs:styled-components"
-  ],
-  "supportPolicy": ["current"]
+  ]
 }

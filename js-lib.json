@@ -11,12 +11,11 @@
     "github>browniebroke/renovate-configs:react",
     "github>browniebroke/renovate-configs:styled-components"
   ],
-  "semanticCommits": true,
+  "semanticCommits": "enabled",
   "packageRules": [
     {
-      "paths": ["example/**"],
+      "matchFileNames": ["example/**"],
       "extends": [":semanticCommitTypeAll(chore)"]
     }
-  ],
-  "supportPolicy": ["current"]
+  ]
 }

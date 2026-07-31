@@ -2,13 +2,11 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "babel-eslint"
-      ],
-      "matchPackagePrefixes": [
-        "@typescript-eslint/",
-        "@eslint/js",
-        "eslint",
-        "prettier"
+        "babel-eslint",
+        "@typescript-eslint/{/,}**",
+        "@eslint/js{/,}**",
+        "eslint{/,}**",
+        "prettier{/,}**"
       ],
       "groupName": "eslint and prettier",
       "groupSlug": "eslint-prettier"

@@ -1,8 +1,8 @@
 {
     "packageRules": [
       {
-        "matchPackagePatterns": [
-          "gatsby"
+        "matchPackageNames": [
+          "/gatsby/"
         ],
         "groupName": "gatsby packages",
         "groupSlug": "gatsby-packages"

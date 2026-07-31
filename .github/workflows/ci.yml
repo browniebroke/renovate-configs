@@ -28,4 +28,4 @@ jobs:
           # Every tracked .json is a Renovate config, except this package's manifest
           configs=$(git ls-files '*.json' | grep -vx 'package.json' | tr '\n' ' ')
           echo "Validating: $configs"
-          npx --yes --package renovate -c "renovate-config-validator --no-global $configs"
+          npx --yes --package renovate -c "renovate-config-validator --strict --no-global $configs"

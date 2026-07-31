@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base", 
+    "config:recommended",
     "github>browniebroke/renovate-configs:automerge"
   ],
   "labels": ["dependencies"],
