@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "oxlint",
+        "oxfmt"
+      ],
+      "groupName": "oxc tools",
+      "groupSlug": "oxc"
+    }
+  ]
+}
